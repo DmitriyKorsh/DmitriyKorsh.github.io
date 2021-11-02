@@ -5,15 +5,15 @@ html {
 }
 
 body {
-    width: 1920px;
+    width: 1000px;
     margin: 50px auto;
     padding: 0 20px 20px 20px;
-    border: 15px solid #C6DBD4;
+    border: 8px solid #C6DBD4;
     background-color: #B3D3DB;
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 35px;
     text-align: center;
     padding: 20px 0;
     color: #283A4A;
@@ -23,14 +23,15 @@ h1 {
 img {
     display: block;
     margin: 0 auto;
+    width: 1000px;
 }
 p, li {
-    font-size: 32px;
+    font-size: 15px;
     line-height: 2;
     letter-spacing: 1px;
 }
 h2 {
-    font-size: 40px;
+    font-size: 23px;
     line-height: 2;
     letter-spacing: 1px;
 }
