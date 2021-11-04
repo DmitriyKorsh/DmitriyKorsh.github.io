@@ -2,10 +2,10 @@ let myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     let mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/4.jpg') {
-      myImage.setAttribute ('src','images/6.jpg');
-    } else {
+    if(mySrc === 'images/6.jpg') {
       myImage.setAttribute ('src','images/4.jpg');
+    } else {
+      myImage.setAttribute ('src','images/6.jpg');
     }
 }
 
@@ -18,7 +18,7 @@ function setUserName() {
     setUserName();
   } else {
     localStorage.setItem('name', myName);
-    myHeading.innerHTML = 'Погружение в фентези мир, в который хочется верить! Верно, ' + storedName + '?';
+    myHeading.innerHTML = 'Почему все так фанатеют от Ведьмака? Интересно, ' + storedName + '?';
   }
 }
 
