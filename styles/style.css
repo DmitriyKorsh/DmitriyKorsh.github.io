@@ -12,26 +12,37 @@ body {
     background-color: #B3D3DB;
 }
 
+header {
+    font-size: 55px;
+    color: #283A4A;
+    text-shadow: 1px 1px 1px #171F41;
+    text-align: center;
+}
+
 h1 {
     font-size: 35px;
     text-align: center;
     padding: 20px 0;
     color: #283A4A;
-    text-shadow: 1px 1px 3px #171F41;
+    text-shadow: 1px 1px 1px #171F41;
     margin: 0px;
 }
+
 img {
     display: block;
     margin: 0 auto;
     width: 1000px;
 }
+
 p, li {
     font-size: 15px;
     line-height: 2;
     letter-spacing: 1px;
 }
+
 h2 {
     font-size: 23px;
     line-height: 2;
     letter-spacing: 1px;
 }
+
