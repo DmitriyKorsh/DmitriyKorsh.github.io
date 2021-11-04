@@ -26,7 +26,7 @@ if(!localStorage.getItem('name')) {
   setUserName();
 } else {
   let storedName = localStorage.getItem('name');
-  myHeading.innerHTML = 'Погружение в фентези мир, в который хочется верить! Верно, ' + storedName + '?';
+  myHeading.innerHTML = 'Почему все так фанатеют от Ведьмака? Интересно, ' + storedName + '?';
 }
 
 myButton.onclick = function() {
