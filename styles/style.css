@@ -28,10 +28,9 @@ h1 {
     margin: 0px;
 }
 
-img {
+img, video {
     display: block;
     margin: 0 auto;
-
 }
 
 p, li , dt, dd, pre{
