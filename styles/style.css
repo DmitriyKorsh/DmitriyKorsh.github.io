@@ -39,14 +39,31 @@ p, li , dt, dd, pre{
     letter-spacing: 1px;
 }
 
+article p:first-child::first-line {
+    font-size: 200%;
+}
+
+.points {
+    list-style-type: none;
+    font-size: 18px;
+}
+
+ul li{
+    font-size: 15px;
+    line-height: 2;
+    letter-spacing: 1px;
+    list-style-type: disclosure-closed;
+}
 h2 {
     font-size: 23px;
     line-height: 2;
     letter-spacing: 1px;
 }
 
-h3 {
-    font-size: 16px;
-    line-height: 2;
-    letter-spacing: 1px;
+a:link, a:visited {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
 }
