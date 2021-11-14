@@ -13,7 +13,10 @@ body {
     width: 1000px;
     margin: 50px auto;
     padding: 0 20px 20px 20px;
-    border: 8px solid #C6DBD4;
+    border: 8px double #5e6a7e;
+    border-radius: 20px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
     background-color: #B3D3DB;
 }
 
@@ -27,6 +30,7 @@ header {
 h1 {
     font-size: 35px;
     text-align: center;
+    background-color: rgba(105, 240, 224, 0.05);
     padding: 20px 0;
     color: #283A4A;
     text-shadow: 1px 1px 1px #171F41;
@@ -61,7 +65,7 @@ h2 {
     letter-spacing: 1px;
 }
 
-a:link, a:visited {
+a:link, a:visited{
     color: black;
 }
 
