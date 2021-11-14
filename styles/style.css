@@ -44,10 +44,6 @@ p, li , dt, dd, pre{
     letter-spacing: 1px;
 }
 
-article p:first-child::first-line {
-    font-size: 200%;
-}
-
 .points {
     list-style-type: none;
     font-size: 18px;
