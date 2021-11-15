@@ -41,6 +41,12 @@ h1 {
 img {
     display: block;
     margin: 0 auto;
+    min-width: 800px;
+    max-width: 84%;
+}
+
+#dikstra {
+    min-width: 800px;
     max-width: 84%;
 }
 
