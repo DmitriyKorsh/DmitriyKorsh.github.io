@@ -41,13 +41,9 @@ h1 {
 img {
     display: block;
     margin: 0 auto;
-    min-width: 800px;
-    max-width: 84%;
-}
-
-#dikstra {
-    min-width: 800px;
-    max-width: 84%;
+    width: 80%;
+    padding: 10px 0px;
+    
 }
 
 video {
@@ -57,7 +53,7 @@ video {
     max-width: 84%;
 }
 .big-image {
-    max-width: 100%;
+    width: 100%;
 }
 
 p, li , dt, dd, pre{
