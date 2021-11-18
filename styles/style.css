@@ -9,40 +9,71 @@ html {
     background-size: cover;
 }
 
-body {
+main {
     min-width: 825px;
     max-width: 50%;
-    margin: 50px auto;
+    margin: 0px auto;
     padding: 0 20px 20px 20px;
     border: 8px double #5e6a7e;
-    border-radius: 20px;
-    border-top-right-radius: 60px;
-    border-top-left-radius: 60px;
     background-color: #dbf8ff;
 }
 
 header {
+    min-width: 825px;
+    max-width: 50%;
+    margin: 5px auto;
+    padding: 0 20px 20px 20px;
+    border: 8px double #5e6a7e;
+    border-radius: 0px;
+    border-top-right-radius: 60px;
+    border-top-left-radius: 60px;
+    background-color: #dbf8ff;
     font-size: 55px;
-    color: #283A4A;
-    text-shadow: 1px 1px 1px #171F41;
     text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+button {
+    display: block;
+    list-style-type: none;
+    background-color: #8de8ff5f;
+    border: 2px solid #8de8ff5f;
+    border-radius: 8px;
+    margin: 10px 0px;
+    padding: 5px 5px;
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+}
+footer {
+    min-width: 825px;
+    max-width: 50%;
+    margin: 5px auto;
+    padding: 0 20px 20px 20px;
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    border: 8px double #5e6a7e;
+    background-color: #dbf8ff;
 }
 
 h1 {
-    font-size: 35px;
+    font-size: 40px;
     text-align: center;
     background-color: rgba(105, 240, 224, 0.05);
-    padding: 20px 0;
+    padding: 0px 0px 20px 0px;
     color: #283A4A;
     text-shadow: 1px 1px 1px #171F41;
     margin: 0px;
 }
-
+#fn {
+    padding: 20px 0px 0px 0px ;
+}
 img {
     display: block;
     margin: 0 auto;
     width: 80%;
-    padding: 10px 0px;
+    padding: 20px 0px;
     
 }
 
@@ -71,8 +102,12 @@ ul li{
     font-size: 15px;
     line-height: 2;
     letter-spacing: 1px;
+    padding-left: 0px;
+    list-style: none;
     list-style-type: disclosure-closed;
+	margin: 0;
 }
+
 h2 {
     font-size: 23px;
     line-height: 2;
@@ -81,10 +116,36 @@ h2 {
 
 a:link, a:visited{
     text-decoration: none;
-    color: black;
+    color: white;
+    text-shadow: 1px 1px 2px black;
 }
 
-a:hover {
-    color: black;
+.huh>a:hover {
     background-color: #8de8ff5f;
+}
+
+.items:hover, button:hover {
+    background-color: #4bdbff5f;
+    border: 2px solid #4bdbff5f;
+}
+
+.navbar {
+    padding-left: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.items {
+    margin: 0 4.5rem;
+    padding: 0px 7px;
+    font-size: 36%;
+    list-style-type: none;
+    background-color: #8de8ff5f;
+    border: 2px solid #8de8ff5f;
+    border-radius: 8px;
+}
+
+.hui {
+    list-style-type: disclosure-closed;
 }
