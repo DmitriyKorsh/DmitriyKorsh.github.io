@@ -9,6 +9,10 @@ html {
     background-size: cover;
 }
 
+
+
+
+/*Главные части*/
 main {
     min-width: 825px;
     max-width: 50%;
@@ -28,23 +32,8 @@ header {
     border-top-right-radius: 60px;
     border-top-left-radius: 60px;
     background-color: #dbf8ff;
-    font-size: 55px;
-    text-align: center;
-    color: white;
-    text-shadow: 1px 1px 2px black;
 }
-button {
-    display: block;
-    list-style-type: none;
-    background-color: #8de8ff5f;
-    border: 2px solid #8de8ff5f;
-    border-radius: 8px;
-    margin: 10px 0px;
-    padding: 5px 5px;
-    font-size: 2.5rem;
-    color: white;
-    text-shadow: 1px 1px 2px black;
-}
+
 footer {
     min-width: 825px;
     max-width: 50%;
@@ -57,18 +46,29 @@ footer {
     background-color: #dbf8ff;
 }
 
+
+
+/*Заголовки*/
 h1 {
-    font-size: 40px;
+    font-size: 4rem;
     text-align: center;
     background-color: rgba(105, 240, 224, 0.05);
-    padding: 0px 0px 20px 0px;
+    padding: 20px 0px 4px 0px;
     color: #283A4A;
     text-shadow: 1px 1px 1px #171F41;
     margin: 0px;
 }
-#fn {
-    padding: 20px 0px 0px 0px ;
+
+h2 {
+    font-size: 23px;
+    line-height: 2;
+    letter-spacing: 1px;
 }
+
+
+
+
+/*Контент*/
 img {
     display: block;
     margin: 0 auto;
@@ -83,6 +83,7 @@ video {
     margin-right: auto;
     max-width: 84%;
 }
+
 .big-image {
     width: 100%;
 }
@@ -93,11 +94,6 @@ p, li , dt, dd, pre{
     letter-spacing: 1px;
 }
 
-.points {
-    list-style-type: none;
-    font-size: 18px;
-}
-
 ul li{
     font-size: 15px;
     line-height: 2;
@@ -105,47 +101,86 @@ ul li{
     padding-left: 0px;
     list-style: none;
     list-style-type: disclosure-closed;
+    padding-left: 5px;
+    background-position: left;
 	margin: 0;
 }
 
-h2 {
-    font-size: 23px;
-    line-height: 2;
-    letter-spacing: 1px;
-}
 
-a:link, a:visited{
+
+
+/*Ccылки*/
+a {
+    outline: none;
     text-decoration: none;
-    color: white;
-    text-shadow: 1px 1px 2px black;
+    padding: 2px 1px 0;
+  }
+a:link {
+    color: #014753;
+}
+a:visited {
+    color: #026d80;
+}
+a:focus {
+    border-bottom: 1px solid;
+    background: #71deff;
+}
+a:hover {
+    border-bottom: 1px solid;
+    background: #b6dffa;
+}
+a:active {
+    color: #b6dffa;
+    background-color: #026d80;
+}
+a[href="https://www.kinopoisk.ru/series/1044004/"], a[href="https://citaty.info/game/the-witcher-iii-wild-hunt-vedmak-iii-dikaya-ohota"] {
+    background: url("../images/external-link-52.png") no-repeat 100% 0;
+    background-size: 15px 15px;
+    padding-right: 19px;
 }
 
-.huh>a:hover {
-    background-color: #8de8ff5f;
-}
 
-.items:hover, button:hover {
-    background-color: #4bdbff5f;
-    border: 2px solid #4bdbff5f;
-}
 
+
+
+/*Кнопки навигации*/
 .navbar {
-    padding-left: 0px;
-    margin-left: 0px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
+    padding: 0;
+    width: 100%;
+}
+.lil {
+    display: inline;
+    margin: 0 4rem;
+}
+.navbar:last-child .items {
+    margin-right: 0;
 }
 
 .items {
-    margin: 0 4.5rem;
-    padding: 0px 7px;
-    font-size: 36%;
     list-style-type: none;
-    background-color: #8de8ff5f;
-    border: 2px solid #8de8ff5f;
-    border-radius: 8px;
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 3;
+    width: 19.5%;
+    margin-right: 0.625%;
+    border-radius: 20px;
 }
 
-.hui {
-    list-style-type: disclosure-closed;
+.items:link, .items:visited, .items:focus {
+    background: #b6dffa;
+    color: #014753;
+    border: 2px solid #b6dffa;
+}
+
+.items:hover {
+    background: #44b9ce;
+    border: 2px solid #b6dffa;
+}
+
+.items:active {
+    background: #014753;
+    color: #b6dffa;
+    border: 2px solid #44b9ce;
 }
